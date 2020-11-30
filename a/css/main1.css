@@ -1,0 +1,505 @@
+@charset "utf-8";
+.center{
+    margin: 0 auto;
+    width: 300px;
+}
+.b-ra{
+    border-radius: 50%;
+}
+.border{
+    border: 1px solid #7f7f7f;
+}
+/**********************************头部开始**********************************/
+.head{
+    width: 300px;
+    height: 300px;
+    background-color: #0f90e3;
+}
+.face{
+    width: 250px;
+    height: 250px;
+    -webkit-transform: translateY(-250px);
+    -moz-transform: translateY(-250px);
+    -ms-transform: translateY(-250px);
+    -o-transform: translateY(-250px);
+    transform: translateY(-250px);
+}
+/**********************************头部结束**********************************/
+/**********************************胡子开始**********************************/
+.beard1{
+    width: 90px;
+    height: 2px;
+    background-color: #6c6c6c;
+    -webkit-transform: translate(25px,-400px);
+    -moz-transform: translate(25px,-400px);
+    -ms-transform: translate(25px,-400px);
+    -o-transform: translate(25px,-400px);
+    transform: translate(25px,-400px);
+}
+.beard2{
+    width: 90px;
+    height: 2px;
+    background-color: #6c6c6c;
+    -webkit-transform: translate(190px,-402px);
+    -moz-transform: translate(190px,-402px);
+    -ms-transform: translate(190px,-402px);
+    -o-transform: translate(190px,-402px);
+    transform: translate(190px,-402px);
+}
+.beard3{
+    width: 95px;
+    height: 2px;
+    background-color: #6c6c6c;
+    -webkit-transform: translate(20px,-430px) rotate(10deg);
+    -moz-transform: translate(20px,-430px) rotate(10deg);
+    -ms-transform: translate(20px,-430px) rotate(10deg);
+    -o-transform: translate(20px,-430px) rotate(10deg);
+    transform: translate(20px,-430px) rotate(10deg);
+}
+.beard4{
+    width: 90px;
+    height: 2px;
+    background-color: #6c6c6c;
+    -webkit-transform: translate(25px,-380px) rotate(-10deg);
+    -moz-transform: translate(25px,-380px) rotate(-10deg);
+    -ms-transform: translate(25px,-380px) rotate(-10deg);
+    -o-transform: translate(25px,-380px) rotate(-10deg);
+    transform: translate(25px,-380px) rotate(-10deg);
+}
+.beard5{
+    width: 95px;
+    height: 2px;
+    background-color: #6c6c6c;
+    -webkit-transform: translate(190px,-440px) rotate(-10deg);
+    -moz-transform: translate(190px,-440px) rotate(-10deg);
+    -ms-transform: translate(190px,-440px) rotate(-10deg);
+    -o-transform: translate(190px,-440px) rotate(-10deg);
+    transform: translate(190px,-440px) rotate(-10deg);
+}
+.beard6{
+    width: 90px;
+    height: 2px;
+    background-color: #6c6c6c;
+    -webkit-transform: translate(190px,-380px) rotate(10deg);
+    -moz-transform: translate(190px,-380px) rotate(10deg);
+    -ms-transform: translate(190px,-380px) rotate(10deg);
+    -o-transform: translate(190px,-380px) rotate(10deg);
+    transform: translate(190px,-380px) rotate(10deg);
+}
+/**********************************胡子结束**********************************/
+/**********************************脸开始**********************************/
+.eyes1{
+    width: 50px;
+    height: 55px;
+    border-radius: 30px 30px 30px 30px;
+    -webkit-transform: translate(70px,-20px);
+    -moz-transform: translate(70px,-20px);
+    -ms-transform: translate(70px,-20px);
+    -o-transform: translate(70px,-20px);
+    transform: translate(70px,-20px);
+}
+/*眉毛开始*/
+.eyebrow{
+    width: 18px;
+    height: 10px;
+    -webkit-transform: translate(28px,17px);
+    -moz-transform: translate(28px,17px);
+    -ms-transform: translate(28px,17px);
+    -o-transform: translate(28px,17px);
+    transform: translate(28px,17px);
+}
+.eyebrow div{
+    width: 12px;
+    height: 30px;
+    border-radius: 45%;
+}
+/*眉毛结束*/
+.eyes2{
+    width: 50px;
+    height: 55px;
+    border-radius: 30px 30px 30px 30px;
+    -webkit-transform: translate(122px,-78px);
+    -moz-transform: translate(122px,-78px);
+    -ms-transform: translate(122px,-78px);
+    -o-transform: translate(122px,-78px);
+    transform: translate(122px,-78px);
+}
+/*眉毛开始*/
+.eyebrows{
+    width: 15px;
+    height: 30px;
+}
+.eyebrows div{
+    width: 15px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #060606;
+    -webkit-transform: translate(9px,10px);
+    -moz-transform: translate(9px,10px);
+    -ms-transform: translate(9px,10px);
+    -o-transform: translate(9px,10px);
+    transform: translate(9px,10px);
+}
+.eyebrows div .ellipsis{
+    width: 5px;
+    height: 10px;
+    background-color: #fff;
+    -webkit-transform: translate(2px,8px);
+    -moz-transform: translate(2px,8px);
+    -ms-transform: translate(2px,8px);
+    -o-transform: translate(2px,8px);
+    transform: translate(2px,8px);
+}
+/*眉毛结束*/
+.face .nose{
+    width: 40px;
+    height: 40px;
+    background-color: #dc040f;
+    border-radius: 50%;
+    -webkit-transform: translate(99px,-95px);
+    -moz-transform: translate(99px,-95px);
+    -ms-transform: translate(99px,-95px);
+    -o-transform: translate(99px,-95px);
+    transform: translate(99px,-95px);
+}
+.face .nose .ose-ellipsis{
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-transform: translate(5px,8px);
+    -moz-transform: translate(5px,8px);
+    -ms-transform: translate(5px,8px);
+    -o-transform: translate(5px,8px);
+    transform: translate(5px,8px);
+}
+/*鼻涕*/
+.face .nasal-mucus{
+    width: 2px;
+    height: 130px;
+    background-color: #010101;
+    -webkit-transform: translate(120px,-95px);
+    -moz-transform: translate(120px,-95px);
+    -ms-transform: translate(120px,-95px);
+    -o-transform: translate(120px,-95px);
+    transform: translate(120px,-95px);
+}
+/*嘴*/
+.face .mouse{
+    width: 205px;
+    height: 50px;
+    -webkit-transform: translate(15px,-138px);
+    -moz-transform: translate(15px,-138px);
+    -ms-transform: translate(15px,-138px);
+    -o-transform: translate(15px,-138px);
+    transform: translate(15px,-138px);
+}
+.face .mouse div{
+    width: 205px;
+    height: 205px;
+    border: 3px solid #1f1f1f;
+    border-radius: 50%;
+    -webkit-transform: translatey(-165px);
+    -moz-transform: translatey(-165px);
+    -ms-transform: translatey(-165px);
+    -o-transform: translatey(-165px);
+    transform: translatey(-165px);
+}
+/**********************************脸结束**********************************/
+/**********************************下身开始**********************************/
+.bodyS{
+    -webkit-transform: translate(-2px,-20px);
+    -moz-transform: translate(-2px,-20px);
+    -ms-transform: translate(-2px,-20px);
+    -o-transform: translate(-2px,-20px);
+    transform: translate(-2px,-20px);
+}
+/*红*/
+.red{
+    -webkit-transform: translateY(-120px);
+    -moz-transform: translateY(-120px);
+    -ms-transform: translateY(-120px);
+    -o-transform: translateY(-120px);
+    transform: translateY(-120px);
+}
+/*腰带*/
+.bodyS .waistband{
+    width: 212px;
+    height: 15px;
+    border-radius: 30px;
+    background-color: #e40203;
+    -webkit-transform: translate(45px,-290px);
+    -moz-transform: translate(45px,-290px);
+    -ms-transform: translate(45px,-290px);
+    -o-transform: translate(45px,-290px);
+    transform: translate(45px,-290px);
+}
+/*铃铛*/
+.bodyS .small-bell{
+    width: 32px;
+    height: 32px;
+    background-color: #fff229;
+    border-radius: 50%;
+    -webkit-transform: translate(134px,-307px);
+    -moz-transform: translate(134px,-307px);
+    -ms-transform: translate(134px,-307px);
+    -o-transform: translate(134px,-307px);
+    transform: translate(134px,-307px);
+}
+/*长方形*/
+.bodyS .small-bell .rectangle{
+    width: 30px;
+    height: 4px;
+    -webkit-transform: translate(0,5px);
+    -moz-transform: translate(0,5px);
+    -ms-transform: translate(0,5px);
+    -o-transform: translate(0,5px);
+    transform: translate(0,5px);
+    border-radius: 6px 6px 0 0;
+}
+/*圆形*/
+.bodyS .small-bell .small-bell-ellipsis{
+    width: 10px;
+    height: 10px;
+    background-color: #7d6273;
+    border: 1px solid #7c7300;
+    border-radius: 50%;
+    -webkit-transform: translate(10px, 6px);
+    -moz-transform: translate(10px, 6px);
+    -ms-transform: translate(10px, 6px);
+    -o-transform: translate(10px, 6px);
+    transform: translate(10px, 6px);
+}
+/*线*/
+.bodyS .small-bell .line{
+    width: 1px;
+    height: 8px;
+    background-color: #6b6800;
+    -webkit-transform: translate(15px,6px);
+    -moz-transform: translate(15px,6px);
+    -ms-transform: translate(15px,6px);
+    -o-transform: translate(15px,6px);
+    transform: translate(15px,6px);
+}
+/*身体*/
+.bodyS .body-bottom{
+    width: 200px;
+    height: 130px;
+    background-color: #019fe8;
+    -webkit-transform: translate(50px,-270px);
+    -moz-transform: translate(50px,-270px);
+    -ms-transform: translate(50px,-270px);
+    -o-transform: translate(50px,-270px);
+    transform: translate(50px,-270px);
+    z-index: -200;
+}
+.bodyS .body-bottom .left{
+    width: 1px;
+    height: 28px;
+    background-color: #019fe8;
+    -webkit-transform: translate(-1px,8px);
+    -moz-transform: translate(-1px,8px);
+    -ms-transform: translate(-1px,8px);
+    -o-transform: translate(-1px,8px);
+    transform: translate(-1px,8px);
+}
+.bodyS .body-bottom .right{
+    width: 1px;
+    height: 28px;
+    background-color: #019fe8;
+    -webkit-transform: translate(200px,-20px);
+    -moz-transform: translate(200px,-20px);
+    -ms-transform: translate(200px,-20px);
+    -o-transform: translate(200px,-20px);
+    transform: translate(200px,-20px);
+}
+/*兜*/
+.bodyS .body-bottom .pocket{
+    width: 190px;
+    height: 100px;
+    -webkit-transform: translate(10px,-50px);
+    -moz-transform: translate(10px,-50px);
+    -ms-transform: translate(10px,-50px);
+    -o-transform: translate(10px,-50px);
+    transform: translate(10px,-50px);
+
+}
+.bodyS .body-bottom .pocket .border{
+    width: 180px;
+    height: 180px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    -webkit-transform: translateY(-90px);
+    -moz-transform: translateY(-90px);
+    -ms-transform: translateY(-90px);
+    -o-transform: translateY(-90px);
+    transform: translateY(-90px);
+}
+/*兜中兜*/
+.pocket-pocket{
+    width: 125px;
+    height: 55px;
+    -webkit-transform: translate(40px,-125px);
+    -moz-transform: translate(40px,-125px);
+    -ms-transform: translate(40px,-125px);
+    -o-transform: translate(40px,-125px);
+    transform: translate(40px,-125px);
+}
+.pocket-pocket-div{
+    width: 125px;
+    height: 135px;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-transform: translateY(-85px);
+    -moz-transform: translateY(-85px);
+    -ms-transform: translateY(-85px);
+    -o-transform: translateY(-85px);
+    transform: translateY(-85px);
+}
+.pocket-pocket .xian{
+    width: 127px;
+    height: 1px;
+    background-color: #7f7f7f;
+    -webkit-transform: translate(2px,-137px);
+    -moz-transform: translate(2px,-137px);
+    -ms-transform: translate(2px,-137px);
+    -o-transform: translate(2px,-137px);
+    transform: translate(2px,-137px);
+}
+/*右胳膊*/
+.arm-right{
+    width: 60px;
+    height: 40px;
+    background-color: #019fe8;
+    -webkit-transform: rotate(30deg) skew(30deg) translate(286px,-493px);
+    -moz-transform: rotate(30deg) skew(30deg) translate(286px,-493px);
+    -ms-transform: rotate(30deg) skew(30deg) translate(286px,-493px);
+    -o-transform: rotate(30deg) skew(30deg) translate(286px,-493px);
+    transform: rotate(30deg) skew(30deg) translate(286px,-493px);
+
+}
+/*右手*/
+.hand-right{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transform: translate(276px,-455px);
+    -moz-transform: translate(276px,-455px);
+    -ms-transform: translate(276px,-455px);
+    -o-transform: translate(276px,-455px);
+    transform: translate(276px,-455px);
+}
+.bodyS:hover .right1{
+    -webkit-transform: translate(118px ,30px) rotate(-15deg);
+    -moz-transform: translate(118px ,30px) rotate(-15deg);
+    -ms-transform: translate(118px ,30px) rotate(-15deg);
+    -o-transform: translate(118px ,30px) rotate(-15deg);
+    transform: translate(118px ,30px) rotate(-15deg);
+}
+/*左胳膊*/
+.arm-left{
+    width: 60px;
+    height: 40px;
+    background-color: #019fe8;
+    -webkit-transform: rotate(-30deg) skew(-30deg) translate(-2px,-446px);
+    -moz-transform: rotate(-30deg) skew(-30deg) translate(-2px,-446px);
+    -ms-transform: rotate(-30deg) skew(-30deg) translate(-2px,-446px);
+    -o-transform: rotate(-30deg) skew(-30deg) translate(-2px,-446px);
+    transform: rotate(-30deg) skew(-30deg) translate(-2px,-446px);
+}
+/*左手*/
+.hand-left{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transform: translate(-25px,-542px);
+    -moz-transform: translate(-25px,-542px);
+    -ms-transform: translate(-25px,-542px);
+    -o-transform: translate(-25px,-542px);
+    transform: translate(-25px,-542px);
+}
+.bodyS:hover .arm-left{
+    width: 60px;
+    height: 40px;
+    background-color: #019fe8;
+    -webkit-transform: translate(2px,-500px) rotate(-60deg);
+    -moz-transform: translate(2px,-500px) rotate(-60deg);
+    -ms-transform: translate(2px,-500px) rotate(-60deg);
+    -o-transform: translate(2px,-500px) rotate(-60deg);
+    transform: translate(2px,-500px) rotate(-60deg);
+}
+.bodyS:hover .hand-left{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transform: translate(-10px,-520px);
+    -moz-transform: translate(-10px,-520px);
+    -ms-transform: translate(-10px,-520px);
+    -o-transform: translate(-10px,-520px);
+    transform: translate(-10px,-520px);
+}
+.bodyS:hover .left1{
+    -webkit-transform: translate(-400px ,-80px) rotate(45deg);
+    -moz-transform: translate(-400px ,-80px) rotate(45deg);
+    -ms-transform: translate(-400px ,-80px) rotate(45deg);
+    -o-transform: translate(-400px ,-80px) rotate(45deg);
+    transform: translate(-400px ,-80px) rotate(45deg);
+}
+/**********************************下身结束**********************************/
+/**********************************脚开始**********************************/
+.foot .left-foot{
+    width: 110px;
+    height: 15px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-transform: translate(30px,-516px);
+    -moz-transform: translate(30px,-516px);
+    -ms-transform: translate(30px,-516px);
+    -o-transform: translate(30px,-516px);
+    transform: translate(30px,-516px);
+}
+.foots{
+    width: 20px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+    -webkit-transform: translate(138px,-560px);
+    -moz-transform: translate(138px,-560px);
+    -ms-transform: translate(138px,-560px);
+    -o-transform: translate(138px,-560px);
+    transform: translate(138px,-560px);
+}
+.foot .foot-yuan{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-transform: translate(138px,-560px);
+    -moz-transform: translate(138px,-560px);
+    -ms-transform: translate(138px,-560px);
+    -o-transform: translate(138px,-560px);
+    transform: translate(138px,-560px);
+}
+.foot .right-foot{
+    width: 110px;
+    height: 15px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-transform: translate(156px,-533px);
+    -moz-transform: translate(156px,-533px);
+    -ms-transform: translate(156px,-533px);
+    -o-transform: translate(156px,-533px);
+    transform: translate(156px,-533px);
+}
+.foot .xian1{
+    width: 20px;
+    height:3px;
+    background-color: #fff;
+    -webkit-transform: translate(139px,-563px);
+    -moz-transform: translate(139px,-563px);
+    -ms-transform: translate(139px,-563px);
+    -o-transform: translate(139px,-563px);
+    transform: translate(139px,-563px);
+}
+/**********************************脚结束**********************************/
